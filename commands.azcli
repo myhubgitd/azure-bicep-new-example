@@ -1,0 +1,2 @@
+# Deploy an ARM template
+az deployment group create --resource-group my-bicep-rg --name my-bicep-deployment --location eastus --template-file main.json
